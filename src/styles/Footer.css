@@ -1,0 +1,89 @@
+/* Style for the footer container */
+footer {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff; /* Text color */
+}
+
+/* Style for each section within the footer */
+.footer-section {
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+}
+
+/* Style for headings within the footer sections */
+.footer-section h2 {
+    color: #ffe7e7;
+    margin-bottom: 10px;    
+}
+
+.footer-section p {
+    color: #bbb; /* Text color */
+    margin-bottom: 5px;
+}
+
+.footer-icon i {
+    font-size: 1.5rem;
+}
+
+.ri-facebook-line {
+    color: #0862F7;
+}
+.ri-twitter-line {
+    color: #00ACEE;
+}
+.ri-instagram-line {
+    color: #F602B5;
+}
+.ri-linkedin-box-fill {
+    color: #086B9C;
+}
+
+/* Style for links within the footer */
+.footer-links a {
+    display: block;
+    margin-bottom: 5px;
+    color: #bbb; /* Link color */
+    text-decoration: none;
+}
+
+/* Hover effect for links */
+.footer-links a:hover {
+    color: #fff;
+}
+
+/* Remove bullet points for Link components */
+.footer-links li {
+    list-style-type: none;
+}
+
+.footer-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer-form input, .footer-form textarea {
+    padding: 5px;
+    width: 80%;
+    display: block;
+    border-radius: 5px;
+}
+
+.footer-form button {
+    background-color: #a3e608;
+    color: rgb(21, 3, 3);
+    border: none;    
+    border-radius: 10px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.footer-form button:hover {
+    background-color: #b3ff00;
+    transition: 0.3s;
+}

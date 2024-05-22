@@ -1,0 +1,53 @@
+.contact-us-section {
+    display: flex;
+    padding: 3% 5%;
+    column-gap: 5%;
+}
+
+.image-section {
+    width: 50%; 
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-section {
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;    
+}
+
+div label {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+div input, div textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+form button {
+    border: none;
+    width: fit-content;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+}

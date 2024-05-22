@@ -1,0 +1,31 @@
+.holidays-section {
+    padding: 3% 5%;
+    width: 60%;
+    margin: auto;
+}
+
+.holidays-section h1 {
+    text-align: center;
+    color: purple;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;    
+}
+
+table th, table td {
+    padding: 8px;
+    border: 2px solid #ccc;
+}
+
+thead tr {
+    background: #007bff;
+    color: white;    
+}
+
+tr {
+    text-align: center;
+    background: bisque ;    
+}
